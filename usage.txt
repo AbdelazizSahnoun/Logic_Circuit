@@ -1,0 +1,22 @@
+Pour ajouter des portes:
+	Il faut sélectionner la porte qu'on veut ajouter sur l'interface et ensuite cliquer sur le circuit pour la créer.
+	
+Pour supprimer une porte:
+	Il faut cliquer sur "Supprimer" puis ensuite cliquer sur la porte ou entrée/sortie qu'on veut supprimer.	
+
+Pour changer le nom d'une Entree/Sortie:
+	On clique sur l'entrée/sortie dont on veut changer le nom, on écrit le nom dans le TextField correspondant et on clique sur "Changer".
+	Les portes normales ne peuvent pas avoir leur nom changé, une erreur sera affiché lorsqu'on clique sur "Changer"
+	
+	
+Pour relier deux porte:
+	Il faut cliquer dans la section "Relier source à" sur "Entrée d'une porte",il faut cliquer sur le connecteur(le triangle bleu) d'une porte
+	qu'on veut relier puis ensuite cliquer sur le connecteur(triangle bleu) d'une autre porte et une connexion deverait être créer.
+	Il faut précisement cliquer sur les connecteur(triangle bleu) sinon il peut arriver que le programme bug, dans ce cas-là il faut 
+	le redémarrer. 
+	
+Pour calculer une table :
+	Il faut d'abord que tout les composantes soit complétement connecté, c'est-à-dire que pour chaque porte,tout ses connecteurs(triangle)
+	soit rouges sauf les Entrée qui peuvent n'avoir qu'un seul connecteur(triangle) rouge. Lorsque tout les portes sont connectés,
+	on clique sur "Calculer".
+
