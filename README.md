@@ -109,13 +109,6 @@ Les sous‐sections suivantes énumèrent les exigences du logiciel à concevoir
 * Calc3 : Le système doit vérifier, suite à chaque modification du circuit (i.e. en temps réel) la validité du circuit.
 
 
-### 5.6 Fonctionnalité d’export (EXP) – Priorité basse 
-
-* Exp1 : Le système doit permettre de générer une image graphique du circuit dans l’un des formats PNG ou JPG (i.e. un seul de ces deux formats doit être supporté par le système, ceci est laissé à l’appréciation du développeur). 
-* Exp1.1 : Lors de l’export graphique du circuit, le système doit demander à l’utilisateur le dossier dans lequel l’image doit être sauvegardée ainsi que son nom du fichier. 
-* Exp2 : Le système doit permettre d’exporter dans un fichier la table de vérité du circuit dans le format texte avec tabulations pour séparer les colonnes. 
-* Exp2.1 : Lors de l’export de la table de vérité, le système doit demander à l’utilisateur le dossier dans lequel le fichier doit être sauvegardée ainsi que son nom du fichier.
-
 ### 5.7 Exigences non-fonctionnelles 
 
 * NF1 : Le système doit manipuler le circuit intégralement en mémoire. Aucun système de buffer ou de cache sur le disque n’est permis. Compte tenu de la taille maximale d’un circuit et de la mémoire généralement disponible dans les ordinateurs contemporains, nous estimons que ceci est une exigence raisonnable. 
